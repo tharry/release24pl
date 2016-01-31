@@ -1,6 +1,8 @@
 # Release24.pl site scraper to be used in other projects
 
 [![Build Status](https://travis-ci.org/tharry/release24pl.svg?branch=master)](https://travis-ci.org/tharry/release24pl)
+[![Test Coverage](https://codeclimate.com/github/tharry/release24pl/badges/coverage.svg)](https://codeclimate.com/github/tharry/release24pl/coverage)
+[![Code Climate](https://codeclimate.com/github/tharry/release24pl/badges/gpa.svg)](https://codeclimate.com/github/tharry/release24pl)
 
 release24pl is a project that might be or might be not of any use for anyone.
 Currently there is not much to describe, Release24pl class is to be used to obtain release24pl movie releases information from polish release site release24 and serve it as javascript object.
