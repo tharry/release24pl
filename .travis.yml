@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - "0.10"
+before_install: npm install -g grunt-cli
+# before_script: grunt coffee
+script: grunt default
+after_success:
+  - npm install codeclimate-test-reporter
+  - node_modules/.bin/istanbul report
+  - codeclimate-test-reporter < coverage/lcov.info
+addons:
+    code_climate:
+#        repo_token: 40e72108c5d9b40e8b2bcfb3cff756e9bed189d1e7e080ed406b76b361e88f0a
